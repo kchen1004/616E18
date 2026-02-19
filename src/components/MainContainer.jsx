@@ -4,20 +4,13 @@ import About from './About.jsx';
 import Amenities from './Amenities.jsx';
 import Footer from './Footer.jsx';
 import Resources from './Resources.jsx';
-import Welcome from './Welcome.jsx';
 
 /* the main container will display whatever the currentView is */
 function MainContainer() {
     const [currentView, setCurrentView] = useState('welcome'); // initially set to home view
 
     function evaluateView(newView) {
-        if (newView === 'welcome') {
-            return (
-                <div>
-                    <Welcome />
-                </div>
-            );
-        } else if (newView === 'about') {
+        if (newView === 'about') {
             return (
                 <div>
                     <About />

@@ -3,8 +3,10 @@
 function Footer() {
     return (
       <footer>
-        <p>2026 • 616 East 18th Street • Brooklyn, NY</p>
-        <p>Managed by residents.</p>
+        <p>
+          616 E18th Street <br />
+          Managed by residents
+        </p>
       </footer>   
     );
 }

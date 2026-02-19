@@ -22,8 +22,13 @@ h1 {
 }
 
 h2 {
-  text-align: left;
+  text-align: center;
   font-size: 16px;
+}
+
+.fit-picture  {
+  width: 500px;
+  text-align: center;
 }
 
 .centered-menu {
@@ -71,7 +76,7 @@ h2 {
 
 .aboutmecontainer #aboutmetext {
   margin-left: 25px;
-  text-align: center;
+  text-align: left;
 }
 
 .leaderboard {
