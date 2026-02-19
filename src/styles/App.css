@@ -1,0 +1,647 @@
+/*
+Below styles will reflect the main page
+*/
+html {
+  font-family: Lato, sans-serif;
+}
+
+body {
+  background-color: #81D8D0;
+  color: #333;
+  line-height: 1.5;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 16px;
+}
+
+.centered-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.centered-menu span {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.centered-menu span:hover {
+  transition: background-color 0.2s;
+  background-color: #32a889;
+}
+
+.centered-menu-no-hl {
+  background-color: white;
+}
+
+.centered-menu span.active {
+  background-color: #33a741;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+.aboutmecontainer {
+  background: #FFFFFF;
+  padding: 10px;
+  box-shadow: 0 2px 4px #0000001a;
+  border-radius: 8px;
+  align-items: center;
+  overflow: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.aboutmecontainer #aboutmetext {
+  margin-left: 25px;
+  text-align: center;
+}
+
+.leaderboard {
+  background: #FFFFFF;
+  padding: 10px;
+  box-shadow: 0 2px 4px #0000001a;
+  border-radius: 8px;
+  align-items: center;
+  overflow: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.search-bar {
+    margin-bottom: 13.28px;
+}
+
+.contactcontainer {
+  margin-top: 10px;
+  text-align: center;
+  background: #FFFFFF;
+  padding: 10px;
+  box-shadow: 0 2px 4px #0000001a;
+  border-radius: 8px;
+  align-items: center;
+  overflow: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+}
+
+table, th, td {
+  text-align: left;
+  table-layout: fixed;
+  border:0.5px solid black;
+  border-collapse: collapse;
+  overflow: hidden;          /* Hides the overflowed text */
+  text-overflow: ellipsis;   /* Adds '...' to the end */
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+th {
+  border: 1px solid white;
+  border-collapse: collapse;
+  background-color: #63ccb5;
+}
+
+td {
+  border-color: #81D8D0;
+}
+
+/*
+Below styles will reflect the navigation menu
+*/
+
+.header-container nav ul {
+  list-style-type: none;
+  background-color: #FFFFFF;
+  display: flex; /* use Flexbox to align items */
+  justify-content: space-around; /* evenly space items */
+  align-items: center; /* center items vertically */
+  padding: 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px #0000001a;
+  border-radius: 8px;
+}
+
+.header-container nav ul li {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 1vw 4vw; /* 5px top/bottom, 80px left/right */
+  cursor: pointer;
+}
+
+.header-container nav ul li:hover {
+  background-color: #32a889;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.header-container #smallnav ul {
+  list-style-type: none;
+  background-color: #FFFFFF;
+  display: flex; /* use Flexbox to align items */
+  justify-content: space-around; /* evenly space items */
+  align-items: center; /* center items vertically */
+  padding: 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px #0000001a;
+  border-radius: 8px;
+}
+
+.header-container #smallnav ul li a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 1vw 4vw; /* 5px top/bottom, 80px left/right */
+}
+
+.header-container #smallnav ul li a:hover {
+  background-color: #32a889;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.userpages nav ul {
+  list-style-type: none;
+  background-color: #FFFFFF;
+  display: flex; /* use Flexbox to align items */
+  justify-content: space-around; /* evenly space items */
+  align-items: center; /* center items vertically */
+  padding: 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px #0000001a;
+  border-radius: 8px;
+}
+
+.userpages nav ul li a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 1vw 4vw; /* 5px top/bottom, 80px left/right */
+}
+
+.userpages nav ul li a:hover {
+  background-color: #32a889;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.image-container {
+  text-align: center;
+  background: #FFFFFF;
+  padding: 10px;
+  box-shadow: 0 2px 4px #0000001a;
+  border-radius: 8px;
+  align-items: center;
+  overflow: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  min-height: 300px;
+}
+
+.image-container button {
+  background-color: #33a741;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.image-container button:hover {
+  background-color: #32a889;
+}
+
+.number-button-span {
+    padding: 0;
+}
+
+.number-button-span:hover {
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+#myImage {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  max-height: 400px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  padding: 10px;
+}
+
+/*
+Below styles will reflect the caption section
+*/
+
+.post {
+  display: flex;
+  flex-direction: column; /* align items vertically */
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  overflow-anchor: none;
+}
+
+.post #captuser {
+  flex-direction: column; /* align items vertically */
+  align-self: flex-start;
+}
+
+.post #postUser {
+  color: #32a889;
+  font-size: 12px;
+}
+
+.post #postCaption {
+  font-size: 16px;
+  color: #000000;
+}
+
+.post #postUpvotes {
+  display: flex;
+  padding-right: 5px;
+  align-self: flex-end;
+  text-decoration: none;
+  border-radius: 8px;
+
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.heart {
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
+}
+
+.votenum {
+  font-size: 16px; /* size of the number */
+  font-weight: bold;
+  text-align: center;
+  width: 50px; /* fixed width, preventing size impact on layout */
+}
+
+.deletion {
+  font-size: 8px;
+  transition: background-color 0.3s ease;
+  vertical-align: middle;
+
+}
+
+#deleteicon:hover {
+  padding: 0.1px;
+  padding-left: 1px;
+  border-radius: 25% 10%;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#upvoteheart:hover {
+  padding: 0.1px;
+  padding-left: 1px;
+  border-radius: 10% 25%;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #32a889;
+}
+
+#downvoteheart:hover {
+  padding: 0.1px;
+  padding-left: 1px;
+  border-radius: 25% 10%;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #ec2d57;
+}
+
+#downhighlight {
+  padding: 0.1px;
+  padding-left: 1px;
+  border-radius: 25% 10%;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #ec2d57;
+}
+
+#uphighlight {
+  padding: 0.1px;
+  padding-left: 1px;
+  border-radius: 10% 25%;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #32a889;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 16
+}
+
+
+/*
+Below styles will reflect the footer section
+*/
+
+footer p {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  text-align: center;
+  width: 65%;
+  font-weight: bold;
+
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px #0000001a;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 
+below starts styling for forms
+*/
+
+.form-container {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container p {
+  text-align: left;
+  font-size: small;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.form-container form {
+  position: relative;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 0;
+  padding: 45px;
+  text-align: center;
+}
+
+.form-container form input {
+  outline: 0;
+  background: #e6e6e6;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-container form button {
+  outline: 0;
+  background: #33a741;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.form-container form button:hover {
+  background-color: #32a889;
+  cursor: pointer;
+}
+
+.caption-form {
+  width: 65%;
+  margin: 40px auto;
+  background: #ece7e7ed;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(100, 100, 100, 0.15);
+  padding: 5px 5px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.caption-form h2 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  color: #111;
+  text-align: center;
+}
+
+.caption-form form {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.caption-form form input {
+  width: 50%;
+  padding: 6px 10px;
+  font-size: 16px;
+  border-radius: 9999px; /* pill shape */
+  border: 1.5px solid #ddd;
+  background: #fafafa;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  outline: none;
+}
+
+.caption-form form input::placeholder {
+  color: #999;
+}
+
+.caption-form form input:focus {
+  border-color: #10a37f; /* nice green highlight */
+  box-shadow: 0 0 8px 2px rgba(16,163,127,0.2);
+  background: #fff;
+}
+
+.caption-form form button {
+  max-width: 60px;
+  background-color: #33a741;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.caption-form form button:hover {
+  background-color: #32a889;
+}
+
+#caption-form-link:hover {
+  cursor: pointer;
+}
+
+/* link hovers */
+
+.link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  /* General container width adjustments */
+  .aboutmecontainer,
+  .leaderboard,
+  .image-container,
+  .caption-form,
+  footer p {
+    width: 90%;
+  }
+
+  .form-container,
+  .form-container form {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .contactcontainer {
+    width: 90%;
+  }
+
+  /* Navigation adjustments */
+  .header-container nav ul,
+  .header-container #smallnav ul,
+  .userpages nav ul {
+    flex-direction: column;
+    width: 40%;
+    padding: 10px;
+  }
+
+  .header-container nav ul li,
+  .header-container #smallnav ul li,
+  .userpages nav ul li {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-container #smallnav ul {
+    width: 90%;
+  }
+
+  /* Table width and text adjustments */
+  table {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  th, td {
+    word-break: break-word;
+  }
+
+  /* Image responsiveness */
+  #myImage {
+    max-width: 90%;
+    max-height: 300px;
+  }
+
+  /* Post layout scaling */
+  .post {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .post #postCaption {
+    font-size: 12px;
+  }
+
+  .post #postUser {
+    font-size: 12px;
+  }
+
+  .post #postUpvotes {
+    width: 80px;
+  }
+
+  .votenum,
+  .heart {
+    font-size: 12px;
+  }
+
+  .deletion {
+    font-size: 10px;
+  }
+
+  /* Caption form input/button layout */
+  .caption-form form {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .caption-form form input,
+  .caption-form form button {
+    width: 90%;
+    border-radius: 8px;
+  }
+}
