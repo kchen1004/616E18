@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import NavigationBar from './NavigationBar.jsx';
 import About from './About.jsx';
 import Amenities from './Amenities.jsx';

@@ -1,6 +1,4 @@
 /* this will house the navigation bar component */
-import React , { useState } from 'react';
-
 function NavigationBar(props) {
 
     return (

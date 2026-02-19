@@ -1,5 +1,3 @@
-
-
 /* this component will handle the Resources display */
 
 function Resources() {
